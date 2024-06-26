@@ -63,7 +63,7 @@ func main() {
 		if (update.Message != nil && update.Message.Text == "/start") || (update.CallbackQuery != nil && update.CallbackQuery.Data == "1") {
 			reqs.reqs = []int{0, 0, 0, 0}
 			startMessage := "Привет! Я бот по поиску ваканский, заполните небольшую анкету из 5 вопросов и я подберу подходящие вакансии\nВыберите специальность:"
-			button1 := tu.InlineKeyboardButton("Айти").WithCallbackData("IT")
+			button1 := tu.InlineKeyboardButton("IT-Сфера").WithCallbackData("IT")
 			button2 := tu.InlineKeyboardButton("Административная работа").WithCallbackData("AdminWork")
 
 			button3 := tu.InlineKeyboardButton("Бухгалтерия").WithCallbackData("Accounting")
