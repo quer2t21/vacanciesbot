@@ -9,13 +9,13 @@ type Vacancy struct {
 
 var Vacancies []Vacancy = []Vacancy{
 	{
-		name:   "хакир без дистанта",
+		name:   "Example",
 		salary: 50000,
 		url:    "https://api.hh.ru/vacancies/",
 		reqs:   []int{1, 0, 0, 0},
 	},
 	{
-		name:   "Айти с дистантом",
+		name:   "Разработчик",
 		salary: 100000,
 		url:    "https://gauctr.ru/job/dorozhnyj-rabochij-ot-120-000-rublej-na-ruki/",
 		reqs:   []int{1, 1, 0, 0},
